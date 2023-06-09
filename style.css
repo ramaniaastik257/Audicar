@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+}
+
+.Meant-img-1 {
+    background-image: url(./image/2.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 0.1px;
+}
+
+.Meant-img-2 {
+    background-image: url(./image/1.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 224px;
+    height: 78px;
+    margin-top: 62px;
+    margin-right: 0px;
+    margin-left: 165px;
+}
+
+.Meant-text {
+    margin: 100px;
+    color: white;
+}
+
+.Meant-text-1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    margin: 144px 20px 0;
+}
+
+.Meant-text-2 {
+    margin: 42px 20px 50px;
+    max-width: 472px;
+    font-size: 68px;
+}
+
+.Luxury-found-img-1 {
+    background-image: url(./image/3.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 493px;
+    padding: 0.1px;
+}
+
+.Luxury-found-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    margin-left: 680px;
+    margin-top: 77px;
+    color: #000000;
+}
+
+.Luxury-found-text-1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+}
+
+.Luxury-found-text-2 {
+    color: white;
+    max-width: 461px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Luxury-found-text-3 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Luxury-found-text-4 {
+    max-width: 413px;
+    color: white;
+    font-style: italic;
+
+}
+
+.video-1 {
+    width: 100%;
+    height: 593px;
+    margin-top: -27px;
+
+}
+
+.AVAILABLE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -7px;
+
+}
+
+.AVAILABLE-MODELS-text {
+    padding: 40px;
+}
+
+.AVAILABLE-MODELS-bg-1 {
+    background-color: #cf233d;
+    width: 430px;
+    height: 360px;
+    padding: 0.1px;
+}
+
+.AVAILABLE-MODELS-text-4 {
+    max-width: 188px;
+    font-size: 15px;
+    color: white;
+    margin-top: 17px;
+}
+
+.AVAILABLE-MODELS-text-2 {
+    color: white;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.AVAILABLE-MODELS-text-3 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.AVAILABLE-MODELS-text-1 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.AVAILABLE-MODELS-bg-2 {
+    background-color: #cf233d;
+    width: 430px;
+    height: 360px;
+}
+
+.AVAILABLE-MODELS-bg-3 {
+    background-color: #cf233d;
+    width: 429px;
+    height: 360px;
+    padding: 0.1px;
+}
+
+.AVAILABLE-MODELS-image-1 {
+
+    background-image: url(./image/5.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 610px;
+    height: 303px;
+    margin-left: -108px;
+}
+
+.available-text-7 {
+    color: white;
+    font-size: 25px;
+    max-width: 384px;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.illumination-bg {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 0.1px;
+    margin-top: -10px;
+}
+
+.illumination-text-no-1 {
+    padding: 50px
+}
+
+.illumination-text-1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.illumination-text-2 {
+    color: white;
+    max-width: 403px;
+    font-size: 36px;
+    margin-top: 15px;
+
+}
+
+.illumination-text-3 {
+    color: white;
+    font-size: 12px;
+    max-width: 515px;
+    margin-top: 25px;
+
+}
+
+.illumination-img-1 {
+    background-image: url(./image/6.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 533px;
+    height: 422px;
+}
+
+.illumination-no-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button-8 {
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    box-shadow: rgb(0 0 0 / 70%) 0 1px 0 0;
+    box-sizing: border-box;
+    color: #060606;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2.15385;
+    margin: 0;
+    outline: none;
+    padding: 9px 2.8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button-8:hover,
+.button-8:focus {
+    background-color: #080808c9;
+    color: #ffffff;
+}
+
+.button-8:focus {
+    box-shadow: 0 0 0 4px rgba(0, 5, 9, 0.15);
+}
+
+.button-8:active {
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #000000;
+}
+
+.illumination-no-2-image {
+    background-image: url(./image/7.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 342px;
+    height: 261px;
+}
+
+.all-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.illumination-no-2-text-1 {
+    color: white;
+    margin-top: 15px;
+}
+
+.illumination-no-2-text-2 {
+    color: white;
+    max-width: 357px;
+    font-size: 14px;
+}
+
+
+
+.illumination-no-3-image {
+    background-image: url(./image/8.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 342px;
+    height: 261px;
+}
+
+.all-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.illumination-no-3-text-1 {
+    color: white;
+    margin-top: 15px;
+    max-width: 289px;
+}
+
+.illumination-no-3-text-2 {
+    color: white;
+    max-width: 357px;
+    font-size: 13px;
+}
+
+
+.illumination-no-4-image {
+    background-image: url(./image/9.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 342px;
+    height: 261px;
+}
+
+.all-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.illumination-no-4-text-1 {
+    color: white;
+    margin-top: 15px;
+    max-width: 289px;
+}
+
+.illumination-no-4-text-2 {
+    color: white;
+    max-width: 357px;
+    font-size: 13px;
+}
+
+.illumination-no-2 {
+    padding: 5px;
+}
+
+.illumination-no-3 {
+    padding: 5px;
+}
+
+.illumination-no-4 {
+    padding: 5px;
+}
+
+.Because-img {
+    background-image: url(./image/10.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    margin-top: -10px;
+    padding: 0.1px;
+}
+
+.Because-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    margin-left: 780px;
+    margin-top: 85px;
+    color: #000000;
+
+}
+
+.Because-text-1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Because-text-2 {
+    color: white;
+    max-width: 436px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.Because-text-3 {
+    color: white;
+    max-width: 500px;
+    font-size: 15px;
+}
+
+.presence-lights-img-1 {
+    background-image: url(./image/11.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 535px;
+}
+
+.Ideal-for-rear-image-text-bg {
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    padding: 0.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Rear-Matrix-LED-img {
+    background-image: url(./image/12.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 342px;
+    height: 250px;
+}
+
+.Rear-Matrix-LED-text-1 {
+    color: white;
+}
+
+.Rear-Matrix-LED-text-2 {
+    color: white;
+    max-width: 328px;
+    font-size: 14px;
+}
+
+.Rear-relaxation-seat-img {
+    background-image: url(./image/13.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 342px;
+    height: 250px;
+    margin-top: 19px;
+}
+
+.Rear-relaxation-seat-text-1 {
+    color: white;
+    max-width: 364px;
+}
+
+.Rear-relaxation-seat-text-2 {
+    color: white;
+    max-width: 328px;
+    font-size: 14px;
+}
+
+.D3-Sound-img {
+    background-image: url(./image/14.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 342px;
+    height: 250px;
+}
+
+.D3-Sound-text-1 {
+    color: white;
+}
+
+.D3-Sound-text-2 {
+    color: white;
+    max-width: 328px;
+    font-size: 14px;
+}
+
+.Rear-Matrix-LED {
+    padding: 3px;
+}
+
+.Rear-relaxation-seat {
+    padding: 3px;
+}
+
+.D3-Sound {
+    padding: 3px;
+}
+
+.created-with-bg {
+    background-color: #333333;
+    width: 100%;
+    height: auto;
+}
+
+.created-with-text-1 {
+    text-align: center;
+    color: white;
+    padding: 27px;
+    font-size: 15px;
+}
+
+.created-with-text-2 {
+    color: #f8a9b5;
+    font-size: 14px;
+}
+
+.created-with-text-3 {
+    color: #f8a9b5;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .Meant-text-1 {
+        text-transform: uppercase;
+        font-size: 21px;
+        margin: 145px 6px 0;
+    }
+
+    .Meant-text-2 {
+        max-width: 465px;
+        margin: 7px 1px 1px;
+        font-size: 42px;
+    }
+
+    .Meant-img-2 {
+        background-image: url(./image/1.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 224px;
+        height: auto;
+        margin-top: 62px;
+        margin-right: 0px;
+        margin-left: 1px;
+    }
+
+    .Meant-text {
+        margin: 64px;
+        color: white;
+    }
+
+    .Luxury-found-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: flex-start;
+        margin-left: 1px;
+        margin-top: 1px;
+        color: #000000;
+        padding: 34px;
+        padding-top: 110px;
+    }
+
+    .Luxury-found-text-4 {
+        max-width: 413px;
+        color: white;
+        font-style: italic;
+        font-size: 14px;
+    }
+
+    .Luxury-found-text-3 {
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .Luxury-found-text-2 {
+        color: white;
+        max-width: 461px;
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    .Luxury-found-text-1 {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+    }
+
+    .video-1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .AVAILABLE-MODELS-bg-2 {
+        background-color: #cf233d;
+        width: 346px;
+        height: 248px;
+        padding: 0.1px;
+    }
+
+    .AVAILABLE-MODELS-bg-3 {
+        background-color: #cf233d;
+        width: 346px;
+        height: 260px;
+        padding: 0.1px;
+    }
+
+    .AVAILABLE-MODELS-bg-1 {
+        background-color: #cf233d;
+        width: 346px;
+        height: 242px;
+        padding: 0.1px;
+    }
+
+    .AVAILABLE-MODELS-image-1 {
+        background-image: url(./image/5.png);
+        background-position: -4% 6%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 346px;
+        height: 124px;
+        margin-left: 0px;
+        margin-top: 81px;
+    }
+
+    .available-text-7 {
+        color: white;
+        font-size: 23px;
+        max-width: 325px;
+        text-align: right;
+        margin-top: 100px;
+    }
+
+    .illumination-img-1 {
+        background-image: url(./image/6.jpeg);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 345px;
+        height: 422px;
+        background-position-x: -280px;
+    }
+
+    .Because-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: flex-start;
+        margin-left: 1px;
+        margin-top: 44px;
+        color: #000000;
+        padding: 31px;
+        padding-top: 0px;
+    }
+}
